@@ -84,8 +84,12 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="BinaryNumberConverter.cs" />
+    <Compile Include="HexadecimelNumberConverter.cs" />
+    <Compile Include="NumberConverterFactory.cs" />
     <Compile Include="NumericalNumberConverter.cs" />
     <Compile Include="INumberConverter.cs" />
+    <Compile Include="OctalNumberConverter.cs" />
+    <Compile Include="RomanNumberConverter.cs" />
     <Compile Include="ValueConverterViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />

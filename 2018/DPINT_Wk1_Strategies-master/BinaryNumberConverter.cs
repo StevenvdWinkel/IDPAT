@@ -10,12 +10,12 @@ namespace DPINT_Wk1_Strategies
     {
         public string ToLocalString(int fromNumber)
         {
-            return fromNumber.ToString();
+            return Convert.ToString(fromNumber, 2);
         }
 
         public int ToNumerical(string FromText)
         {
-            return Int32.Parse(FromText);
+            return Convert.ToInt32(FromText, 2);
         }
     }
 }
